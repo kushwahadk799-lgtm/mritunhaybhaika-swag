@@ -1,0 +1,51 @@
+PS C:\Users\user\Desktop\git\mukesh-bhai> git add .
+PS C:\Users\user\Desktop\git\mukesh-bhai> cd..
+PS C:\Users\user\Desktop\git> pwd
+Path                     
+----                     
+C:\Users\user\Desktop\git
+
+
+PS C:\Users\user\Desktop\git> cd .\mukesh-bhai\         
+PS C:\Users\user\Desktop\git\mukesh-bhai> git add .
+PS C:\Users\user\Desktop\git\mukesh-bhai> git commit -m "ffffffff"
+ 1 file changed, 102 insertions(+)
+PS C:\Users\user\Desktop\git\mukesh-bhai> git push
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kushwahadk799-lgtm/mukesh-bhai.git
+   4e80b91..7b778d3  main -> main
+PS C:\Users\user\Desktop\git\mukesh-bhai> git branch 
+* main
+PS C:\Users\user\Desktop\git\mukesh-bhai> git checkout -b feature
+Switched to a new branch 'feature'
+PS C:\Users\user\Desktop\git\mukesh-bhai> git add .
+[feature ee61ad7] giygiy
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+PS C:\Users\user\Desktop\git\mukesh-bhai> git push
+fatal: The current branch feature has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\user\Desktop\git\mukesh-bhai> git push --set-upstream origin feature
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 321 bytes | 40.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/kushwahadk799-lgtm/mukesh-bhai/pull/new/feature
+remote: 
+To https://github.com/kushwahadk799-lgtm/mukesh-bhai.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+PS C:\Users\user\Desktop\git\mukesh-bhai> git branch 
+* feature
+  main
